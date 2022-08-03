@@ -1,29 +1,16 @@
-# extension-python
+# Friday Night Funkin' Python Support
 *Repository by Joalor64GH*
 
 *Originally by magnumsrt*
 
 Original Repository - `https://github.com/magnumsrt/MagEngine-Public`
 
-## Instructions
-### 1. Installation:
-You can either install it througfh haxelib:
-```yml
-haxelib install extension-python
-```
-Or you can install it through Git for the latest updates:
-```yml
-haxelib git extension-python https://github.com/Joalor64GH/extension-python.git
-```
+### 1. Downloading the repository:
+You can either download it as a ZIP, or git clone it.
 
 ### 2. Editing `Project.xml`
-First of all, add this in `Project.xml`:
 
-```xml
-<haxelib name="extension-python" />
-```
-
-Then, if you have a custom defines section, add:
+If you have a custom defines section, add:
 
 ```xml
 <define name="PYTHON_ALLOWED"/>
